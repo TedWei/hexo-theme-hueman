@@ -3,9 +3,11 @@
   <div class="sidebar-top">
     <p><%= __('sidebar.follow') %>:</p>
     <ul class="social-links">
-      <% for (var i in theme.social_links){ %>
+      <% for (var i in theme.social_links){ 
+       if (url_for(theme.social_links[i]) !== "/"){
+      %>
         <li><a class="social-tooltip" title="<%= i %>" href="<%- url_for(theme.social_links[i]) %>" target="_blank"><i id="icon-<%= i %>" class="icon"></i></a></li>
-      <% } %>
+      <% }} %>
     </ul>
   </div>
   <% if(is_post()) { %>

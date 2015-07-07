@@ -1,3 +1,9 @@
+
+> ### This theme fork from [Hueman](https://github.com/ppoffice/hexo-theme-hueman).
+> ### log 2015-07-07
+> ### 1. change sidebar when screen and (max-width: 959px) and (min-width: 480px) style add display:none;
+> ### 2. change sidebar social links when url is empty not display it,change in sidebar.ejs
+
 > #### This theme is ported from [AlxMedia](https://github.com/AlxMedia)'s the WordPress theme [Hueman](https://github.com/AlxMedia/hueman).
 > #### If you like Hueman, don't forget to 'Star' the project and share it with your friends! :）
 
